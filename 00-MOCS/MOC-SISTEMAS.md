@@ -1,26 +1,34 @@
+# MOC — Sistemas e Serviços
+
+## Índice Geral
+
+### Sistemas Ativos
+- [[COMERCIALRS]] — CRM de vendas
+- [[DOCCORRETOR]] — Gerenciamento de documentos
+- [[CHATWOOT]] — Atendimento ao cliente
+- [[N8N]] — Automações e workflows
+- [[PAINEL-CORRETOR-API]] — API GraphQL do Painel
+- [[CHATWOOT-KANBAN]] — Kanban integrado ao Chatwoot
+
+### Infraestrutura
+- [[VPS-ROCHA-SALES]] — Mapa do VPS
+- [[COMANDOS-VPS]] — Comandos essenciais
+
+### Memória e Conhecimento
+- [[MEMORIA-HERMES]] — Memórias persistentes do Hermes
+- [[DECISOES-ARQUITETURAIS]] — Decisões técnicas
+- [[SKILLS-LISTA]] — Lista de 52 skills
+
+### Banco de Dados
+- [[ESTRUTURA-SUPABASE]] — Schema do Supabase Cloud
+
+### Histórico
+- [[INCIDENTES-BUGS]] — Incidentes e bugs resolvidos
+- [[CRON-AUTOMACOES]] — Cron jobs e automações
+
+### Outros Recursos
+- [[HERMES-SETUP]] — Configuração do Hermes
+- [[OBSIDIAN-VAULT]] — Sobre o vault Obsidian
+
 ---
-created: 2026-06-13
-type: MOC
-tags: [index, sistemas, overview]
----
-
-# Mapa de Conteúdo — Sistemas
-
-## Projetos Ativos
-- [[MOC-COMERCIALRS|ComercialRS — CRM]]
-- [[MOC-DOCCORRETOR|DocCorretor — Gestão de Documentos]]
-- [[MOC-CHATWOOT|Chatwoot — Atendimento]]
-- [[MOC-N8N|n8n — Automações]]
-- [[MOC-HERMES|Hermes — Agente IA]]
-- [[MOC-OBSIDIAN|Obsidian — Memória Central]]
-
-## Índice de Agentes
-- [[../02-AGENTS/HERMES|HERMES Agent]]
-- [[../02-AGENTS/SUBAGENTS|Subagentes]]
-
-## Índice de Decisões
-- [[../07-DECISIONS/INDEX|Decisões Arquiteturais]]
-
-## Meta
-- *Vault criado em:* `2026-06-13`
-- *Última atualização:* `2026-06-13`
+*Criado: 2026-06-13*
