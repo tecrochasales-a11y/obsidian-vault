@@ -85,3 +85,70 @@ Cada um tem sua própria pasta, configurações e workflows.
 
 ---
 *Última atualização: 2026-06-13*
+
+## Obsidian Vault — Atualização Fase 3 (Jun 2026)
+**Data:** Jun 2026
+
+Vault populado com conteúdo da memória Hermes:
+- 01-MEMORY atualizada com user profile completo
+- 04-PROJECTS: Chatwoot e Painel Corretor detalhados
+- 05-WORKFLOWS: workflows práticos documentados
+- 08-KNOWLEDGE: base de conhecimento criada
+
+### Decisão: Site como Visualização, Não Edição
+- Browser view: https://obsidian.rochasalesseguros.com.br (só leitura)
+- Obsidian app no PC: edição completa via Git sync
+- Sync: push a cada 5 min, pull a cada 1 min
+
+### Decisão: Vault Mantém Frontmatter Simples
+- Sem formato Obsidian Publish pago
+- Custom Node.js server para visualização
+- GitHub como intermediário de sync
+
+## VPS — Acesso e Gestão
+**Data:** Jun 2026
+
+### Credenciais
+- IP: 31.97.243.106
+- User: root
+- Senha: Marcia19671951@
+
+### Pastas Protegidas (não deletar)
+- /var/www/documentos
+- /var/www/app
+- /var/www/rochasales
+- /var/www/chatwoot
+- /var/www/evolution-manager
+- /var/www/n8n
+- /var/www/html
+- /var/www/traefik
+
+### Volumes Removidos (Jun 2026)
+- evolution_evolution_postgres (48MB)
+- ollama-nef5_ollama (15GB)
+- ollama_data (1.8GB)
+- Total freed: ~17GB
+
+## DocCorretor — Fluxo Link para Corretor (Confirmado)
+**Data:** Jun 2026
+
+Fluxo INALTERÁVEL sem autorização do Tecrocha:
+1. Admin clica → token + pasta criada com client_id=null
+2. Link gerado com folder_id
+3. Externo preenche
+4. API atualiza pasta com client_id
+
+Qualquer alteração需 aprovação explícita.
+
+## Spam Protection — Alert Throttle
+**Data:** Mai 2026
+
+Tabela alert_throttle implementada:
+- signature: hash de event_type + target_phone
+- expires_at: 2h30 após criação
+- Lock 9000s em task_alerts.py
+
+Objetivo: evitar alertas duplicados para o mesmo corretor.
+
+---
+*Última atualização: 2026-06-15*
