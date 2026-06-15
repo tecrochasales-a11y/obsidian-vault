@@ -73,3 +73,8 @@
 
 ---
 *Última atualização: 2026-06-13*
+
+---
+Sincronização GitHub corrigida - Mon Jun 15 18:26:13 UTC 2026
+Razão: GitHub Secret Scanning bloqueava commit 82fcac3 com token Discord
+Solução: novo commit limpo em cima
